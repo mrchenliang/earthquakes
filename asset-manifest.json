@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.a41fa448.chunk.css",
-    "main.js": "/static/js/main.da8024f6.chunk.js",
-    "main.js.map": "/static/js/main.da8024f6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ddf73e23.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ddf73e23.js.map",
-    "static/js/2.edf24c12.chunk.js": "/static/js/2.edf24c12.chunk.js",
-    "static/js/2.edf24c12.chunk.js.map": "/static/js/2.edf24c12.chunk.js.map",
-    "static/js/3.bb53fe35.chunk.js": "/static/js/3.bb53fe35.chunk.js",
-    "static/js/3.bb53fe35.chunk.js.map": "/static/js/3.bb53fe35.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a41fa448.chunk.css.map": "/static/css/main.a41fa448.chunk.css.map",
-    "static/js/2.edf24c12.chunk.js.LICENSE.txt": "/static/js/2.edf24c12.chunk.js.LICENSE.txt",
-    "static/media/icon.9768dfaa.svg": "/static/media/icon.9768dfaa.svg"
+    "main.css": "/earthquakes/static/css/main.a41fa448.chunk.css",
+    "main.js": "/earthquakes/static/js/main.da8024f6.chunk.js",
+    "main.js.map": "/earthquakes/static/js/main.da8024f6.chunk.js.map",
+    "runtime-main.js": "/earthquakes/static/js/runtime-main.ac9bb1a6.js",
+    "runtime-main.js.map": "/earthquakes/static/js/runtime-main.ac9bb1a6.js.map",
+    "static/js/2.edf24c12.chunk.js": "/earthquakes/static/js/2.edf24c12.chunk.js",
+    "static/js/2.edf24c12.chunk.js.map": "/earthquakes/static/js/2.edf24c12.chunk.js.map",
+    "static/js/3.bb53fe35.chunk.js": "/earthquakes/static/js/3.bb53fe35.chunk.js",
+    "static/js/3.bb53fe35.chunk.js.map": "/earthquakes/static/js/3.bb53fe35.chunk.js.map",
+    "index.html": "/earthquakes/index.html",
+    "static/css/main.a41fa448.chunk.css.map": "/earthquakes/static/css/main.a41fa448.chunk.css.map",
+    "static/js/2.edf24c12.chunk.js.LICENSE.txt": "/earthquakes/static/js/2.edf24c12.chunk.js.LICENSE.txt",
+    "static/media/icon.9768dfaa.svg": "/earthquakes/static/media/icon.9768dfaa.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ddf73e23.js",
+    "static/js/runtime-main.ac9bb1a6.js",
     "static/js/2.edf24c12.chunk.js",
     "static/css/main.a41fa448.chunk.css",
     "static/js/main.da8024f6.chunk.js"
