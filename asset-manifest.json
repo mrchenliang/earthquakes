@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mrchenliang.github.io/earthquakes/static/css/main.a41fa448.chunk.css",
-    "main.js": "/mrchenliang.github.io/earthquakes/static/js/main.da8024f6.chunk.js",
-    "main.js.map": "/mrchenliang.github.io/earthquakes/static/js/main.da8024f6.chunk.js.map",
-    "runtime-main.js": "/mrchenliang.github.io/earthquakes/static/js/runtime-main.f2c4f7d8.js",
-    "runtime-main.js.map": "/mrchenliang.github.io/earthquakes/static/js/runtime-main.f2c4f7d8.js.map",
-    "static/js/2.edf24c12.chunk.js": "/mrchenliang.github.io/earthquakes/static/js/2.edf24c12.chunk.js",
-    "static/js/2.edf24c12.chunk.js.map": "/mrchenliang.github.io/earthquakes/static/js/2.edf24c12.chunk.js.map",
-    "static/js/3.bb53fe35.chunk.js": "/mrchenliang.github.io/earthquakes/static/js/3.bb53fe35.chunk.js",
-    "static/js/3.bb53fe35.chunk.js.map": "/mrchenliang.github.io/earthquakes/static/js/3.bb53fe35.chunk.js.map",
-    "index.html": "/mrchenliang.github.io/earthquakes/index.html",
-    "static/css/main.a41fa448.chunk.css.map": "/mrchenliang.github.io/earthquakes/static/css/main.a41fa448.chunk.css.map",
-    "static/js/2.edf24c12.chunk.js.LICENSE.txt": "/mrchenliang.github.io/earthquakes/static/js/2.edf24c12.chunk.js.LICENSE.txt",
-    "static/media/icon.9768dfaa.svg": "/mrchenliang.github.io/earthquakes/static/media/icon.9768dfaa.svg"
+    "main.css": "./static/css/main.a41fa448.chunk.css",
+    "main.js": "./static/js/main.da8024f6.chunk.js",
+    "main.js.map": "./static/js/main.da8024f6.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.799da84d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.799da84d.js.map",
+    "static/js/2.edf24c12.chunk.js": "./static/js/2.edf24c12.chunk.js",
+    "static/js/2.edf24c12.chunk.js.map": "./static/js/2.edf24c12.chunk.js.map",
+    "static/js/3.bb53fe35.chunk.js": "./static/js/3.bb53fe35.chunk.js",
+    "static/js/3.bb53fe35.chunk.js.map": "./static/js/3.bb53fe35.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.a41fa448.chunk.css.map": "./static/css/main.a41fa448.chunk.css.map",
+    "static/js/2.edf24c12.chunk.js.LICENSE.txt": "./static/js/2.edf24c12.chunk.js.LICENSE.txt",
+    "static/media/icon.9768dfaa.svg": "./static/media/icon.9768dfaa.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f2c4f7d8.js",
+    "static/js/runtime-main.799da84d.js",
     "static/js/2.edf24c12.chunk.js",
     "static/css/main.a41fa448.chunk.css",
     "static/js/main.da8024f6.chunk.js"
