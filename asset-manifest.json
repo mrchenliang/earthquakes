@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/earthquakes/static/css/main.a41fa448.chunk.css",
-    "main.js": "/earthquakes/static/js/main.da8024f6.chunk.js",
-    "main.js.map": "/earthquakes/static/js/main.da8024f6.chunk.js.map",
-    "runtime-main.js": "/earthquakes/static/js/runtime-main.ac9bb1a6.js",
-    "runtime-main.js.map": "/earthquakes/static/js/runtime-main.ac9bb1a6.js.map",
-    "static/js/2.edf24c12.chunk.js": "/earthquakes/static/js/2.edf24c12.chunk.js",
-    "static/js/2.edf24c12.chunk.js.map": "/earthquakes/static/js/2.edf24c12.chunk.js.map",
-    "static/js/3.bb53fe35.chunk.js": "/earthquakes/static/js/3.bb53fe35.chunk.js",
-    "static/js/3.bb53fe35.chunk.js.map": "/earthquakes/static/js/3.bb53fe35.chunk.js.map",
-    "index.html": "/earthquakes/index.html",
-    "static/css/main.a41fa448.chunk.css.map": "/earthquakes/static/css/main.a41fa448.chunk.css.map",
-    "static/js/2.edf24c12.chunk.js.LICENSE.txt": "/earthquakes/static/js/2.edf24c12.chunk.js.LICENSE.txt",
-    "static/media/icon.9768dfaa.svg": "/earthquakes/static/media/icon.9768dfaa.svg"
+    "main.css": "/mrchenliang.github.io/earthquakes,/static/css/main.a41fa448.chunk.css",
+    "main.js": "/mrchenliang.github.io/earthquakes,/static/js/main.da8024f6.chunk.js",
+    "main.js.map": "/mrchenliang.github.io/earthquakes,/static/js/main.da8024f6.chunk.js.map",
+    "runtime-main.js": "/mrchenliang.github.io/earthquakes,/static/js/runtime-main.8f9fe776.js",
+    "runtime-main.js.map": "/mrchenliang.github.io/earthquakes,/static/js/runtime-main.8f9fe776.js.map",
+    "static/js/2.edf24c12.chunk.js": "/mrchenliang.github.io/earthquakes,/static/js/2.edf24c12.chunk.js",
+    "static/js/2.edf24c12.chunk.js.map": "/mrchenliang.github.io/earthquakes,/static/js/2.edf24c12.chunk.js.map",
+    "static/js/3.bb53fe35.chunk.js": "/mrchenliang.github.io/earthquakes,/static/js/3.bb53fe35.chunk.js",
+    "static/js/3.bb53fe35.chunk.js.map": "/mrchenliang.github.io/earthquakes,/static/js/3.bb53fe35.chunk.js.map",
+    "index.html": "/mrchenliang.github.io/earthquakes,/index.html",
+    "static/css/main.a41fa448.chunk.css.map": "/mrchenliang.github.io/earthquakes,/static/css/main.a41fa448.chunk.css.map",
+    "static/js/2.edf24c12.chunk.js.LICENSE.txt": "/mrchenliang.github.io/earthquakes,/static/js/2.edf24c12.chunk.js.LICENSE.txt",
+    "static/media/icon.9768dfaa.svg": "/mrchenliang.github.io/earthquakes,/static/media/icon.9768dfaa.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ac9bb1a6.js",
+    "static/js/runtime-main.8f9fe776.js",
     "static/js/2.edf24c12.chunk.js",
     "static/css/main.a41fa448.chunk.css",
     "static/js/main.da8024f6.chunk.js"
