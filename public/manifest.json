@@ -1,6 +1,6 @@
 {
-  "short_name": "Earthquake Zen Garden",
-  "name": "Earthquake Zen Garden",
+  "short_name": "earthquakes",
+  "name": "earthquakes",
   "icons": [
     {
       "src": "favicon.ico",
