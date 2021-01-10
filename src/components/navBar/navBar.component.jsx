@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import jsonData from '../../data.json';
+import React from 'react';
+import { connect } from 'react-redux';
+
 import icon from '../../assets/icon.svg';
+
 import './navBar.styles.css';
 
-const NavBar = () => {
-    const [data] = useState(JSON.parse(JSON.stringify(jsonData)));
+const NavBar = ({ data }) => {
     return (
         <nav id = "navBar" className = "navBar">
             <a href = "/" aria-label="Go to home page">
@@ -12,10 +13,14 @@ const NavBar = () => {
             </a>
             <h1 className = "navBarTitle">{data?.site?.title || "(Untitled)"}</h1>
             <a href = "/profile" aria-label="Go to profile page">
-                <hi className = "navBarUser">Welcome {data?.profile?.firstName || " "}</hi>
+                <div className = "navBarUser">Welcome {data?.profile?.firstName || " "}</div>
             </a>
         </nav>
     );
 };
 
-export default NavBar;
+const mapStateToProps = state => ({
+    data: state.data,
+});
+
+export default connect(mapStateToProps)(NavBar);
