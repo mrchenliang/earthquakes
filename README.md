@@ -7,3 +7,4 @@ Takes a .json file and display some lovely data. Three pages are included: a hom
 ## Final Product
 
 Web View
+!["Gif of Web View"](https://github.com/mrchenliang/earthquakes/blob/main/docs/web.gif)
