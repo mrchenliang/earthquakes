@@ -5,22 +5,25 @@ import icon from '../../assets/icon.svg';
 
 import './navBar.styles.css';
 
-const NavBar = ({ data }) => {
+const NavBar = ({ site, profile }) => {
     return (
         <nav id = "navBar" className = "navBar">
             <a href = "/" aria-label="Go to home page">
                 <img className = "navBarIcon" src = {icon}/>
             </a>
-            <h1 className = "navBarTitle">{data?.site?.title || "(Untitled)"}</h1>
+            <h1 className = "navBarTitle">{site?.title || "(Untitled)"}</h1>
             <a href = "/profile" aria-label="Go to profile page">
-                <div className = "navBarUser">Welcome {data?.profile?.firstName || " "}</div>
+                <div className = "navBarUser">Welcome {profile?.firstName || " "}</div>
             </a>
         </nav>
     );
 };
 
-const mapStateToProps = state => ({
-    data: state.data,
-});
+const mapStateToProps = state => {
+  return {
+    site: state.site,
+    profile: state.profile,
+  }
+};
 
 export default connect(mapStateToProps)(NavBar);

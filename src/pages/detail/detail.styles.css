@@ -1,0 +1,25 @@
+.detailHeader {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 32px 48px;
+}
+
+.detailInfos {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.detailTable {
+    width: 30%;
+}
+
+.detailInfoLabel {
+    font-weight: bold;
+    width: 30%
+}
+td.detailInfoValue {
+    width: 50%;
+}

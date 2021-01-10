@@ -1,23 +1,19 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import moment from 'moment';
 
 import NavBar from  '../../components/navBar/navBar.component';
 
 import './profile.styles.css';
 
-const Profile = ( {data} ) => {
+const Profile = ({ profile }) => {
 
-  // const setProfile = (profile) => {
-  //   profile;
-  // }
-  const profile = data?.profile || {};
+  profile = profile || {};
   const mappedProfile =  {
-    'first name': profile.firstName || "",
-    'last name': profile.lastName || "",
-    'phone': profile.phone || "",
-    'email': profile.email || "",
-    'bio': profile.bio || "",
+    'first name': profile?.firstName || "",
+    'last name': profile?.lastName || "",
+    'phone': profile?.phone || "",
+    'email': profile?.email || "",
+    'bio': profile?.bio || "",
   };
   const profileInfos = Object.keys(mappedProfile);
 
@@ -46,12 +42,10 @@ const Profile = ( {data} ) => {
   );
 };
 
-const mapStateToProps = state => ({
-  data: state.data,
-});
-
-// const mapDispatchToProps = dispatch => ({
-//   onClick: searchTerm => dispatch({ type: 'SET_PROFILE', profile }),
-// });
+const mapStateToProps = state => {
+  return {
+    profile: state.profile,
+  }
+};
 
 export default connect(mapStateToProps)(Profile);
