@@ -1,0 +1,36 @@
+.profileHeader {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 32px 48px;
+}
+
+.profileInfos {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.profilePhoto {
+    margin: 1em;
+    width: auto;
+    height: auto;
+    max-height: 225px;
+}
+
+.profileTable {
+    width: 30%;
+}
+
+tr.profileInfo {
+    height: 2.5em;
+}
+
+.profileInfoLabel {
+    font-weight: bold;
+    width: 30%
+}
+td.profileInfoValue {
+    width: 40%;
+}
