@@ -1,6 +1,6 @@
-import jsonData from '../data.json';
 import * as actionTypes from './types';
 
+const jsonData = fetch('https://github.com/mrchenliang/earthquakes/build/data.json');
 const INITIAL_STATE = {
     site: JSON.parse(JSON.stringify(jsonData)).site,
     profile: JSON.parse(JSON.stringify(jsonData)).profile,
